@@ -1,0 +1,70 @@
+    header {
+        background-color: #333;
+        padding: 10px;
+        color: #fff;
+        display: flex; /* Use flexbox to arrange elements */
+        align-items: center; /* Center items vertically */
+    }
+
+    /* Style for the navigation bar */
+    nav {
+        margin-left: auto; /* Push the navigation to the right */
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 8px 16px;
+    }
+
+    nav a:hover {
+        background-color: #555;
+    }
+
+/* style for the images */
+.small-image {
+    width: 800px;
+    height: 500px;
+}
+
+/* styles for thumbnail images */
+.thumbnail-image {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* styles for the larger images that appear when clicked */
+.enlarged-image {
+    width: 800px;
+    height: 500px;
+    display: none; /* Hide the larger image initially */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+/* Add styles for the accompanying text */
+.thumbnail-text {
+    text-align: justify;
+}
+
+ /*style for the logo */
+.small-logo {
+  width: 300px;
+  height: 150px;
+  margin-left: auto;
+}
+
+/*text style */
+body {
+    font-family: 'Text', Montserrat;
+}
+
+h6 {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+}

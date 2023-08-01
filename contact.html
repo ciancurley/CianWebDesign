@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine&display=swap">
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book A class</title>
+
+</head>
+<body>
+    <header>
+      <h1>Community Beach Yoga </h1> <h6> - sky above, earth below, peace within</h6>
+
+  <div class="small-logo">
+  <img src="images/logo.jpg" class="small-logo" alt="Yoga Logo">
+  </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Classes.html">Classes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <section>
+
+            <div class="contact-form">
+   <h2>Contact Us</h2>
+   <form id="contactForm" onsubmit="validateForm(event)">
+     <label for="name">Name:</label>
+     <input type="text" id="name" name="name" required>
+
+<br>
+<br>
+     <label for="email">Email:</label>
+     <input type="email" id="email" name="email" required>
+<br>
+<br>
+     <label for="phone">Phone Number:</label>
+     <input type="tel" id="phone" name="phone" required>
+<br>
+<br>
+     <label for="country">Country:</label>
+     <select id="country" name="country" required>
+       <option value="" disabled selected>Select a country</option>
+       <option value="Ireland">Ireland</option>
+       <option value="UK">UK</option>
+       <option value="Canada">Canada</option>
+       <option value="USA">USA</option>
+       <option value="Other">Other</option>
+     </select>
+<br>
+<br>
+     <label for="message">Message:</label>
+     <textarea id="message" name="message" required></textarea>
+<br>
+<br>
+     <button type="submit">Submit</button>
+   </form>
+ </div>
+<br>
+<br>
+
+              <script src="script.js"></script>
+
+            <div class="text-center">
+  <img src="images/image1.jpg" class="small-image" alt="Beach yoga">
+</div>
+
+        </section>
+    </main>
+
+    <footer>
+        <h3>&copy; 2023 Cian Curley. All rights reserved.</h3>
+    </footer>
+</body>
+</html>
